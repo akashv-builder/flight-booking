@@ -1,0 +1,34 @@
+.socialicons {
+	padding-right: 10px;
+}
+
+.carouselimage {
+	height: 500px;
+}
+
+.signin {
+	padding-right: 10px;
+}
+
+#textcolourwhite {
+	color: white;
+}
+
+.margintobutton {
+	margin-right: 20px;
+}
+.cardsize {
+	margin-top: 20px;
+	height: 100px;
+}
+#footer {
+	height: 100px;
+	margin-top: 10px;
+	background-color: #343a40;
+}
+#deckheight {
+	height: 300px;
+}
+.cardmargin {
+	margin: 10px;
+}
