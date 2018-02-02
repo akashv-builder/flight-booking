@@ -9,18 +9,20 @@
 
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/mycssstyle.css">
-	<link href="https://fonts.googleapis.com/css?family=Arvo|Fira+Sans|Muli|Slabo+27px|Work+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Patua+One|Arvo|Fira+Sans|Muli|Slabo+27px|Work+Sans" rel="stylesheet">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
+
+
+
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
 	<a id="textcolourwhite" class="navbar-brand font-weight-bold" href="#">FlightGo.com</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item active">
@@ -56,22 +58,22 @@
 		<div class="carousel-item active">
 			<img class="d-block w-100 carouselimage" src="../Images/flightpic1.jpeg" alt="First slide">
 			<div id="x" class="carousel-caption">
-				<h2 class="arvo">Book Flights, Hotels and Holiday Packages</h2>
-				<p class="fira">All at one place</p>
+				<h2 class="one">Book Flights, Hotels and Holiday Packages</h2>
+				<p class="one">All at one place</p>
 			</div>
 		</div>
 		<div class="carousel-item">
 			<img class="d-block w-100 carouselimage" src="../Images/flightpic2.jpeg" alt="Second slide">
 			<div class="carousel-caption">
-				<h2>Book Flights, Hotels and Holiday Packages</h2>
-				<p>All at one place</p>
+				<h2 class="one">Book Flights, Hotels and Holiday Packages</h2>
+				<p class="one">All at one place</p>
 			</div>
 		</div>
 		<div class="carousel-item">
 			<img class="d-block w-100 carouselimage" src="../Images/flightpic3.jpeg" alt="Third slide">
 			<div id="x" class="carousel-caption">
-				<h2>Book Flights, Hotels and Holiday Packages</h2>
-				<p>All at one place</p>
+				<h2 class="one">Book Flights, Hotels and Holiday Packages</h2>
+				<p class="one">All at one place</p>
 			</div>
 		</div>
 	</div>
@@ -84,97 +86,98 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<div class="card bg-light">
-	<div class="card-body">
-		<h5 class="card-title">Book Flights</h5>
-		<form>
-			<div class="form-row">
-				<div class="form-group col-md-5">
-					<input type="email" class="form-control" id="inputEmail4" placeholder="From:City or Airport">
-				</div>
-				<div class="form-group col-md-2 text-center">
-					<img id="twoway" src="../Images/twoway3.png" alt="facebook">
-				</div>
-				<div class="form-group col-md-5">
-					<input type="password" class="form-control" id="inputPassword4" placeholder="From:City or Airport">
-				</div>
-			</div>
-			<div class="form-row">
-				<div class="form-group col-md-6">
-					<label for="inputAddress">Depart:</label>
-					<input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
-				</div>
-				<div class="form-group col-md-6">
-					<label for="inputState">Return:</label>
-					<input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
-				</div>
-			</div>
 
-			<div class="form-row">
-				<div class="form-group col-md-6">
-					<label for="inputCity">Travellers:</label>
-					<select id="inputState" class="form-control">
+<div class="container my-4">
+	<div class="card">
+		<div class="card-body crd">
+			<h5 class="card-title ">Book Flights</h5>
+			<form bg-dark>
+				<div class="form-row">
+					<div class="form-group col-md-5">
+						<input type="email" class="form-control" id="inputEmail4" placeholder="From:City or Airport">
+					</div>
+					<div class="form-group col-md-2 text-center">
+						<img id="twoway" src="../Images/twoway3.png" alt="facebook">
+					</div>
+					<div class="form-group col-md-5">
+						<input type="password" class="form-control" id="inputPassword4" placeholder="From:City or Airport">
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label for="inputAddress">Depart:</label>
+						<input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
+					</div>
+					<div class="form-group col-md-6">
+						<label for="inputState">Return:</label>
+						<input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
+					</div>
+				</div>
+
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label for="inputCity">Travellers:</label>
+						<select id="inputState" class="form-control">
         <option selected>Choose...</option>
         <option>1</option>
 						<option>2</option>
       </select>
-				</div>
-				<div class="form-group col-md-6">
-					<label for="inputState">Class:</label>
-					<select id="inputState" class="form-control">
+					</div>
+					<div class="form-group col-md-6">
+						<label for="inputState">Class:</label>
+						<select id="inputState" class="form-control">
         <option selected>Choose...</option>
 						<option>Economy</option>
 						<option>Buisness</option>
       </select>
+					</div>
 				</div>
+				<button id="gobutton" type="button" class="btn btn-primary">Go</button>
+			</form>
+		</div>
+	</div>
+
+	<div id="border" class="card-group">
+		<div class="card cardmargin">
+			<img class="card-img-top" src="../Images/dubai.jpeg" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title arvo">Card title</h5>
+				<p class="card-text fira">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 			</div>
-			<button id="gobutton" type="button" class="btn btn-primary">Go</button>
-		</form>
+			<div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		</div>
+		<div class="card cardmargin">
+			<img class="card-img-top" src="../Images/veince.jpeg" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title arvo">Card title</h5>
+				<p class="card-text fira">This card has supporting text below as a natural lead-in to additional content.</p>
+			</div>
+			<div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		</div>
+		<div class="card cardmargin">
+			<img class="card-img-top" src="../Images/paris.jpeg" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title arvo">Card title</h5>
+				<p class="card-text fira">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+			</div>
+			<div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		</div>
 	</div>
+	<div class="col-12">
+		<p id="cities" class="py-3">
+			Popular Flight SectorsDelhi Dubai Flights |Bangalore Delhi Flights |Bangalore Mumbai Flights |Delhi Mumbai Flights |Mumbai Dubai Flights |Mumbai Singapore Flights |Mumbai Delhi Flights |Delhi Bangkok Flights |Mumbai Bangalore Flights |Mumbai Bangkok Flights |Trending Hotel CitiesHotels in Goa |Hotels in Delhi |Hotels in Bangalore |Hotels in Jaipur |Hotels in Manali |Hotels in Mumbai |Hotels in Srinagar |Hotels in Coorg |Hotels in Hyderabad |Hotels in Chennai |Trending International Hotel CitiesHotels in Ubud |Hotels in Prague |Hotels in Phuket |Hotels in Guangzhou |Hotels in Florence |Hotels in New York |Hotels in Hong Kong |Hotels in Athens |Hotels in Bangkok |Hotels in Las Vegas |Popular Bus RoutesAmritsar Chandigarh Buses |Bangalore Goa Buses |Delhi Manali Buses |Gandhinagar Rajkot Buses |Hyderabad Bangalore Buses |Kolkata Digha Buses |Jaipur Delhi Buses |Bangalore Chennai Buses |Bangalore Hyderabad Buses |Mumbai Pune Buses |Top Searched RoutesDelhi to Munnar |Delhi to Shirdi |Mumbai to Katra |Hyderabad to Ajmer |Chennai to Darjeeling |Popular Train SectorsMumbai to Pune Trains |Delhi To Agra Trains |Delhi To Jaipur Trains |Pune To Mumbai Trains |Bangalore To Chennai Trains |Upcoming EventsJal Mahotsav Hanuwantiya 2017 |Pushkar Camel Fair 2017 |NH7 Weekender Shillong 2017 |Popular Flight CitiesFlights to Delhi |Flights from Delhi |Flights to Bangalore |Flights from Bangalore |Flights to Hyderabad |Flights from Hyderabad |Flights to Goa |Flights from Goa |Flights to Mumbai |Flights from Mumbai |
+		</p>
+
+	</div>
+
 </div>
-
-<div class="card-group">
-	<div class="card cardmargin">
-		<img class="card-img-top" src="../Images/dubai.jpeg" alt="Card image cap">
-		<div class="card-body">
-			<h5 class="card-title">Card title</h5>
-			<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-		</div>
-		<div class="card-footer">
-			<small class="text-muted">Last updated 3 mins ago</small>
-		</div>
-	</div>
-	<div class="card cardmargin">
-		<img class="card-img-top" src="../Images/veince.jpeg" alt="Card image cap">
-		<div class="card-body">
-			<h5 class="card-title">Card title</h5>
-			<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-		</div>
-		<div class="card-footer">
-			<small class="text-muted">Last updated 3 mins ago</small>
-		</div>
-	</div>
-	<div class="card cardmargin">
-		<img class="card-img-top" src="../Images/paris.jpeg" alt="Card image cap">
-		<div class="card-body">
-			<h5 class="card-title">Card title</h5>
-			<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-		</div>
-		<div class="card-footer">
-			<small class="text-muted">Last updated 3 mins ago</small>
-		</div>
-	</div>
-</div>
-<div class="jumbotron jumbotron-fluid">
-	<div class="container">
-		<h1 class="display-4">Fluid jumbotron</h1>
-		<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-	</div>
-</div>
-
-
-
-<footer id="footer">
-	sdfsdgsfd
+<footer id="footer" class="slabo text-center">
+	© 2017 FlightGo All rights reserved
 </footer>
 </html>

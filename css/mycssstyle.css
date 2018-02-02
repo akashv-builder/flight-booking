@@ -24,7 +24,7 @@
 }
 
 #footer {
-	height: 100px;
+	height: 25px;
 	margin-top: 10px;
 	background-color: #343a40;
 }
@@ -50,7 +50,8 @@
 }
 
 .slabo {
-	font-family: 'Slabo 27px', serif;
+	font-family: 'Slabo 20px', serif;
+	color: white;
 }
 
 .worksans {
@@ -65,6 +66,26 @@
 	font-family: 'Fira Sans', sans-serif;
 }
 
+#border {
+	border-bottom: 1px
+}
+
 .arvo {
 	font-family: 'Arvo', serif;
+}
+
+.one {
+	font-family: 'Patua One', cursive;
+}
+
+#cities {
+	border-left: none;
+	border-right: none;
+	border-top: 2px solid;
+	margin-top: 10px;
+	color: lightgrey;
+	font-size: 15px;
+}
+.crd {
+	background-color: #4169E1;
 }
