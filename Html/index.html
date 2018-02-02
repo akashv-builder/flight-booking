@@ -9,6 +9,7 @@
 
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/mycssstyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Fira+Sans|Muli|Slabo+27px|Work+Sans" rel="stylesheet">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -55,8 +56,8 @@
 		<div class="carousel-item active">
 			<img class="d-block w-100 carouselimage" src="../Images/flightpic1.jpeg" alt="First slide">
 			<div id="x" class="carousel-caption">
-				<h2>Book Flights, Hotels and Holiday Packages</h2>
-				<p>All at one place</p>
+				<h2 class="arvo">Book Flights, Hotels and Holiday Packages</h2>
+				<p class="fira">All at one place</p>
 			</div>
 		</div>
 		<div class="carousel-item">
@@ -92,34 +93,42 @@
 					<input type="email" class="form-control" id="inputEmail4" placeholder="From:City or Airport">
 				</div>
 				<div class="form-group col-md-2 text-center">
-					<img src="../Images/twoway.png" alt="facebook">
+					<img id="twoway" src="../Images/twoway3.png" alt="facebook">
 				</div>
 				<div class="form-group col-md-5">
 					<input type="password" class="form-control" id="inputPassword4" placeholder="From:City or Airport">
 				</div>
 			</div>
-			<div class="form-group">
-				<label for="inputAddress">Depart</label>
-				<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-			</div>
-			<div class="form-group">
-				<label for="inputAddress2">Return</label>
-				<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-			</div>
 			<div class="form-row">
 				<div class="form-group col-md-6">
-					<label for="inputCity">Travellers</label>
-					<input type="text" class="form-control" id="inputCity">
+					<label for="inputAddress">Depart:</label>
+					<input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
 				</div>
-				<div class="form-group col-md-4">
-					<label for="inputState">Class</label>
+				<div class="form-group col-md-6">
+					<label for="inputState">Return:</label>
+					<input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="inputCity">Travellers:</label>
 					<select id="inputState" class="form-control">
         <option selected>Choose...</option>
-        <option>...</option>
+        <option>1</option>
+						<option>2</option>
+      </select>
+				</div>
+				<div class="form-group col-md-6">
+					<label for="inputState">Class:</label>
+					<select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+						<option>Economy</option>
+						<option>Buisness</option>
       </select>
 				</div>
 			</div>
-			<button type="submit" class="btn btn-primary">Go</button>
+			<button id="gobutton" type="button" class="btn btn-primary">Go</button>
 		</form>
 	</div>
 </div>

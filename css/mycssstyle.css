@@ -17,18 +17,54 @@
 .margintobutton {
 	margin-right: 20px;
 }
+
 .cardsize {
 	margin-top: 20px;
 	height: 100px;
 }
+
 #footer {
 	height: 100px;
 	margin-top: 10px;
 	background-color: #343a40;
 }
+
 #deckheight {
 	height: 300px;
 }
+
 .cardmargin {
 	margin: 10px;
+}
+
+#bookingform {
+	border: 1px
+}
+
+#twoway {
+	margin-top: 4px;
+}
+
+#gobutton {
+	width: 100px;
+}
+
+.slabo {
+	font-family: 'Slabo 27px', serif;
+}
+
+.worksans {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.muli {
+	font-family: 'Muli', sans-serif;
+}
+
+.fira {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.arvo {
+	font-family: 'Arvo', serif;
 }
