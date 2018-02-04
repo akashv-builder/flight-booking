@@ -18,14 +18,9 @@
 	margin-right: 20px;
 }
 
-.cardsize {
-	margin-top: 20px;
-	height: 100px;
-}
 
 #footer {
 	height: 25px;
-	margin-top: 10px;
 	background-color: #343a40;
 }
 
@@ -67,7 +62,8 @@
 }
 
 #border {
-	border-bottom: 1px
+	border-bottom: 1px;
+	background-color: #F5F5DC;
 }
 
 .arvo {
@@ -78,14 +74,32 @@
 	font-family: 'Patua One', cursive;
 }
 
-#cities {
-	border-left: none;
-	border-right: none;
-	border-top: 2px solid;
-	margin-top: 10px;
-	color: lightgrey;
-	font-size: 15px;
+.info {
+	padding: 0px;
+	margin: 0px;
+	font-size: 13px;
+	color: #2F4F4F;
 }
-.crd {
-	background-color: #4169E1;
+.comm {
+	margin: 20px;
+}
+#end {
+	background-color: #DCDCDC;
+}
+#cream {
+	background-color: #FFFAFA;
+	
+}
+.creamcolor {
+	background-color: #FFFAFA;
+	
+}
+.rubic {
+	font-family: 'Rubik', sans-serif;
+}
+.grey {
+	color: #2F4F4F;
+}
+.quick {
+	font-family: 'Quicksand', sans-serif;
 }
